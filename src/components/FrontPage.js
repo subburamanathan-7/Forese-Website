@@ -1,18 +1,11 @@
 import "./FrontPageStyles.css"
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
-import IntroImg from "../assets/intro-bg.JPG"  
 import IntroImg1 from "../assets/IMG_1289.JPG"
-import IntroImg2 from "../assets/IMG_1291.JPG"
-import { Link } from "react-router-dom"
 import React from 'react'
-import InteractiveCard from "../routes/InteractiveCard"
-import CardGallery from "../routes/CardGallery"
 // import { useSpring, animated } from '@react-spring/web';
 import { useState, useEffect } from 'react';
 import LoadingComponent from './LoadingComponent';
-
-
 
 const FrontPage = () => {
   

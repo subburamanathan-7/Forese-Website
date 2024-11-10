@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import Navbar from "../components/Navbar";
-import Footer from '../components/Footer';
+import Navbar from "../components/Navbar.js";
+import Footer from '../components/Footer.js';
 import Papa from 'papaparse';
-import { TeamCard } from "./TeamCard";
+import { TeamCard } from "./TeamCard.js";
 import { Col, Container, Tab, Row, Nav } from "react-bootstrap";
 import './TeamStyles.css';
 

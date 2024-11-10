@@ -1,11 +1,9 @@
 import React from 'react'
-import Navbar from "../components/Navbar"
-import FrontPage from "../components/FrontPage"
-import Footer from '../components/Footer'
+import Navbar from "../components/Navbar.js"
+import FrontPage from "../components/FrontPage.js"
+import Footer from '../components/Footer.js'
 // import CardGallery from './CardGallery'
-import CardFlip from './CardFlip'
-import wwdcard from './wwdcard'
-import WWD from "../routes/wwdcard"
+import WWD from "../routes/wwdcard.js"
 
 const Home = () => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
-import Navbar from "../components/Navbar";
-import Footer from '../components/Footer';
+import Navbar from "../components/Navbar.js";
+import Footer from '../components/Footer.js';
 import SemImg from "../assets/seminar.jpg";
 import './SeminarStyles.css';
 import { useEffect } from 'react';

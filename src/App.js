@@ -1,24 +1,20 @@
 import React from "react";
 import "./index.css";
-import Home from "./routes/Home"
-import About from "./routes/About"
-import Team from "./routes/Team"
-import Events from "./routes/Events"
-import CodersForum from "./routes/CodersForum"
-import Fored from "./routes/Fored"
-import Contact from "./routes/Contact"
-import Submitresume from "./routes/Submitresume"
+import Home from "./routes/Home.js"
+import About from "./routes/About.js"
+import Team from "./routes/Team.js"
+import Events from "./routes/Events.js"
+import CodersForum from "./routes/CodersForum.js"
+import Fored from "./routes/Fored.js"
+import Contact from "./routes/Contact.js"
+import Submitresume from "./routes/Submitresume.js"
 // import MockPlacements from "./routes/MockPlacements";
-import MockPlacement from "./routes/MockPlacement";
-import Mock from "./routes/Mock";
-import Aptitude from "./routes/Aptitude";
-import GroupDiscussion from "./routes/GroupDiscussion";
+import MockPlacement from "./routes/MockPlacement.js";
+import Mock from "./routes/Mock.js";
+import Aptitude from "./routes/Aptitude.js";
+import GroupDiscussion from "./routes/GroupDiscussion.js";
 // import Seminar from "./routes/Seminar";
-import Seminar from "./routes/Seminar";
-
-import wwdcard from "./routes/wwdcard";
-
-
+import Seminar from "./routes/Seminar.js";
 
 import { Route, Routes } from "react-router-dom";
 

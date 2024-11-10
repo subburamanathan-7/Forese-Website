@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './MockPlacementStyles.css';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
+import Navbar from '../components/Navbar.js';
+import Footer from '../components/Footer.js';
 import ABC from "../assets/abc.JPG";
 
 const MockPlacement = () => {

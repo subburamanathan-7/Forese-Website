@@ -1,9 +1,8 @@
 import React from 'react';
-import Navbar from "../components/Navbar";
-import Footer from '../components/Footer';
+import Navbar from "../components/Navbar.js";
+import Footer from '../components/Footer.js';
 import IntroImg1 from "../assets/IMG_1289.JPG";
 import './MockStyles.css';
-import { ImOffice } from 'react-icons/im';
 import { useEffect } from 'react';
 
 const Mock = () => {

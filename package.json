@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://subburamanathan-7.github.io/Forese-Website",
+  "type": "module",
   "dependencies": {
     "@react-spring/web": "^9.7.4",
     "@testing-library/jest-dom": "^5.17.0",
