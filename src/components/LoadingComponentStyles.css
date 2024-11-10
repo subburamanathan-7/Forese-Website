@@ -1,0 +1,58 @@
+.creative-loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(90.21deg, #c1cfe3 -5.91%, #4f6cb0 111.58%);
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: pulseBackground 3s infinite;
+  }
+  
+  .logo {
+    width: 100px; 
+    height: 100px;
+    animation: pulseLogo 5s infinite;
+  }
+  
+  /* Background pulse effect */
+  @keyframes pulseBackground {
+    0% {
+      background-color: #bec9e3;
+    }
+    50% {
+      background-color: #7e92c2;
+    }
+    100% {
+      background-color: #bec9e3;
+    }
+    }
+  
+  /* Pulsating logo effect */
+  @keyframes pulseLogo {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1.2);
+      opacity: 0.8;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+
+
+
+  
+
+  

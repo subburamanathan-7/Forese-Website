@@ -1,0 +1,50 @@
+.card-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    padding-left: 110px;
+}
+
+
+.card-container {
+    box-sizing: border-box;
+    flex: 1 1 calc(33.333% - 20px);
+    max-width: calc(33.333% - 20px);
+    margin: 0;
+    perspective: 1000px;
+    
+}
+ 
+.card {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+    margin-top: 3px;
+} 
+
+.card-gallery-container {
+    text-align: center; 
+    padding-top: 3rem;
+}
+
+.gallery-header {
+    margin-bottom: none;
+    color:black;
+    padding-top: 750px;
+}
+
+.gallery-header p{
+    
+    padding-top: 3rem;
+}
+
+.gallery-header h4{
+    padding-top: 3rem;
+    font-weight: bold;
+    font-size: 20px;
+}

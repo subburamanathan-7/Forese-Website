@@ -1,0 +1,48 @@
+.cf {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+  
+.cf img {
+    width: 60%;
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cf img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.cf p {
+    max-width: 800px;
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 20px;
+    padding: 0 5px;
+}
+
+.cf h3{
+    line-height: 2;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.cf button{
+    margin-top: 50px;
+}
+
+.submitresumeclass {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 120px;
+}

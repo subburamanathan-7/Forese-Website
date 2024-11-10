@@ -1,0 +1,25 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 135px;
+}
+
+.about p {
+    max-width: 1200px;
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 20px;
+    margin: 0;
+    padding: 0 15px;
+    margin-bottom: 9px;
+}
+
+.about h3{
+    margin: 30px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+

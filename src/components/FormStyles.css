@@ -1,0 +1,37 @@
+/* .form {
+    border: 2px solid #000; 
+    padding: 20px; 
+    margin: 20px auto;
+    border-radius: 8px;
+    background-color:rgb(237, 221, 237); 
+    max-width: 600px; 
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.content{
+    padding-top: 60px;
+}
+
+label {
+    color: black;
+    margin-bottom: 0.5rem; 
+    display: block;
+}
+ 
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+form input,
+form textarea {
+    margin-bottom: 1rem;
+    padding: 10px 18px;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    border: 1px solid #ccc;
+    width: 100%;
+} */

@@ -1,0 +1,91 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* font-family: "Lora", serif; */
+  color: rgb(0, 0, 0);
+  font-size: 19px;
+}
+
+
+h1,h4,p,a{
+  text-decoration: none;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.btn {
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  /* background: rgb(102, 29, 102);  */
+  background: #4f6cb0;
+  /* background: rgb(97, 97, 210); */
+  color: white; /* Text color */
+  font-weight: 600;
+  cursor: pointer;
+  border: none; /* Remove default border */
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+  pointer-events: auto;
+}
+
+.btn-light {
+  background: transparent;
+  color: black;
+  border: 1px solid black; /* Optional: to ensure visibility */
+}
+
+.btn:hover {
+  /* background: rgba(102, 29, 102, 0.7); */
+  /* background: '#A8C2FF'; */
+  background: #7e92c2;
+  color: white; /* Ensure text color stays white on hover */
+  opacity: 0.5s;
+}
+
+.btn:active {
+  /* background: rgba(102, 29, 102, 0.5);  */
+  /* background: '#A8C2FF'; */
+  background: #7e92c2;
+  color: white; 
+  opacity: 0.8; 
+}
+
+
+.btn:focus {
+  outline: none; 
+}
+
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  body{
+    /* background-color:  #C6E2FF; */
+    /* background-color: #D8BFD8; */
+    /* background-color:#F0F8FF; */
+    /* background-color:  #C6E2FF; */
+    /* background-color:#E3F2FD; */
+    /* background-color: #8AAEE0; */
+    /* background-color: #638ECB; */
+    background-color: #D5DEEF;
+  }
+}
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+

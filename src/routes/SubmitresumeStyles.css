@@ -1,0 +1,31 @@
+.submitresumeclass{
+    margin-bottom: 10px;
+}
+
+.submitresumeclass p {
+    max-width: 800px;
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 20px;
+    padding: 0 15px;
+}
+
+.submitresumeclass h2{
+    line-height: 2;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.submitresumeclass h4{
+    line-height: 2;
+    font-size: 25px;
+    margin-top: 45px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.submitresumeclass button{
+    margin-top: 50px;
+}
