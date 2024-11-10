@@ -2,7 +2,7 @@
   "name": "foresewebsite",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://subburamanathan-7.github.io/Forese-Website",
+  "homepage": "https://subburamanathan-7.github.io/Forese-Website",
   "dependencies": {
     "@react-spring/web": "^9.7.4",
     "@testing-library/jest-dom": "^5.17.0",
