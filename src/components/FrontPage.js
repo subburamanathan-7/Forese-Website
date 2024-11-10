@@ -5,7 +5,7 @@ import IntroImg1 from "../assets/IMG_1289.JPG"
 import React from 'react'
 // import { useSpring, animated } from '@react-spring/web';
 import { useState, useEffect } from 'react';
-import LoadingComponent from './LoadingComponent';
+import LoadingComponent from './LoadingComponent.js';
 
 const FrontPage = () => {
   

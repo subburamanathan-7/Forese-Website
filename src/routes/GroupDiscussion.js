@@ -1,6 +1,6 @@
 import React from 'react';
-import Navbar from "../components/Navbar";
-import Footer from '../components/Footer';
+import Navbar from "../components/Navbar.js";
+import Footer from '../components/Footer.js';
 import IntroImg1 from "../assets/IMG_1289.JPG";
 import './GroupDiscussionStyles.css';
 import { useEffect } from 'react';

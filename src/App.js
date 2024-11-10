@@ -23,22 +23,24 @@ function App() {
     <div>
       <>
         <Routes>
-          <Route path="/" element = {<Home />} />
-          <Route path="/about" element = {<About />} />
-          <Route path="/team" element = {<Team />} />
-          <Route path="/events" element = {<Events />} />
-          <Route path="/codersforum" element = {<CodersForum />} />
+        <Route path="/Forese-Website">
+          <Route path="/Forese-Website/home" element = {<Home />} />
+          <Route path="/Forese-Website/about" element = {<About />} />
+          <Route path="/Forese-Website/team" element = {<Team />} />
+          <Route path="/Forese-Website/events" element = {<Events />} />
+          <Route path="/Forese-Website/codersforum" element = {<CodersForum />} />
           {/* <Route path="/mockplacements" element={<MockPlacements />}/> */}
-          <Route path="/mockplacement" element = {<MockPlacement />} />
-          <Route path="/fored" element = {<Fored />} />
-          <Route path="/contact" element = {<Contact />} />
-          <Route path="/submitresume" element = {<Submitresume />}/>
-          <Route path="/mock" element = {<Mock/>}/>
-          <Route path="/aptitude" element = {<Aptitude/>}/>
-          <Route path="/groupdiscussion" element = {<GroupDiscussion/>}/>
+          <Route path="/Forese-Website/mockplacement" element = {<MockPlacement />} />
+          <Route path="/Forese-Website/fored" element = {<Fored />} />
+          <Route path="/Forese-Website/contact" element = {<Contact />} />
+          <Route path="/Forese-Website/submitresume" element = {<Submitresume />}/>
+          <Route path="/Forese-Website/mock" element = {<Mock/>}/>
+          <Route path="/Forese-Website/aptitude" element = {<Aptitude/>}/>
+          <Route path="/Forese-Website/groupdiscussion" element = {<GroupDiscussion/>}/>
           {/* <Route path="/seminar" element = {<Seminar/>}/> */}
-          <Route path="/seminar" element = {<Seminar/>}/>
+          <Route path="/Forese-Website/seminar" element = {<Seminar/>}/>
           <Route element = {<wwdcard/>}/>
+        </Route>
         </Routes>
       </>
     </div>
