@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Forese-Website/static/css/main.639e98d8.css",
+    "main.js": "/Forese-Website/static/js/main.aff84dce.js",
+    "static/media/IMG_1291.JPG": "/Forese-Website/static/media/IMG_1291.358d9cddc4b0b0441d58.JPG",
+    "static/media/IMG_1289.JPG": "/Forese-Website/static/media/IMG_1289.9756016160f2c418c0af.JPG",
+    "static/media/intro-bg.JPG": "/Forese-Website/static/media/intro-bg.a826ccbac42e00790f77.JPG",
+    "static/media/abc.JPG": "/Forese-Website/static/media/abc.9b2e0dc87ca288fa7d2b.JPG",
+    "static/media/fored.jpg": "/Forese-Website/static/media/fored.956abadba538701d0ee2.jpg",
+    "static/media/seminar.jpg": "/Forese-Website/static/media/seminar.5dac7ac760b78f1f6606.jpg",
+    "static/media/codersforumlogo.jpg": "/Forese-Website/static/media/codersforumlogo.67c7aae815be4877ea2c.jpg",
+    "static/media/slick.svg": "/Forese-Website/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Forese-Website/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Forese-Website/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Forese-Website/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Forese-Website/index.html",
+    "main.639e98d8.css.map": "/Forese-Website/static/css/main.639e98d8.css.map",
+    "main.aff84dce.js.map": "/Forese-Website/static/js/main.aff84dce.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.639e98d8.css",
+    "static/js/main.aff84dce.js"
+  ]
+}
